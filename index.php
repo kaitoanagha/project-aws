@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Informasi Pribadi</title>
-</head>
-<body>
-    <h1>Informasi Mahasiswa</h1>
-    <?php
-        
-        $nama = "I Wayan Pasek Anagha Vinaya";
-        $nim = 23083000009;
-        $fakultas = "Teknologi Informasi";
-        $universitas = "Merdeka Malang";
+<?php
+// Data mahasiswa
+$nama = "I. Wayan Pasek Anagha Vinaya";
+$nim = 23083000009;
+$fakultas = "Teknologi Informasi";
 
-       
-        echo "<p>Nama: $nama</p>";
-        echo "<p>NIM: $nim</p>";
-        echo "<p>Fakultas: $fakultas</p>";
-        echo "<p>Universitas: $universitas</p>";
-    ?>
-</body>
-</html>
+// Tampilkan informasi dalam format yang diinginkan
+echo "Nama : " . $nama . "<br>";
+echo "Nim : " . $nim . "<br>";
+echo "Fakultas : " . $fakultas;
+?>
